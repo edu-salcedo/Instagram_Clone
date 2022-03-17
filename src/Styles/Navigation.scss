@@ -1,0 +1,16 @@
+@import "./properties.scss";
+
+.container{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+
+    .search{
+        display: flex;
+        align-items: center;
+        .searchIcon{
+           width: 15px;
+        }
+    }
+    
+}
